@@ -1,0 +1,13 @@
+{{#if displayTitle}}
+<h1>{{title}}</h1>
+{{else}}
+<h1>Default Title</h1>
+{{/if}}
+<p>{{content}}</p>
+<p>{{name}}</p>
+<p>{{street}}</p>
+<ul>
+    {{#each names}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>

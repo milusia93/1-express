@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    border: 1px solid;
+    border-color: black;
+    padding: 2px;
+}
+
+.firstRow {
+    background-color: aquamarine;
+}

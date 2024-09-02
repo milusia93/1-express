@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>Users data</h1>
+    <div class="usersData">
+        <table>
+            <tr class="firstRow">
+                <td>Name</td>
+                <td>Address</td>
+                <td>Website</td>
+            </tr>
+            {{#each users}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{address.street}},
+                    {{address.suite}},
+                    {{address.city}},
+                    {{address.zipcode}}
+                </td>
+                <td><a href="{{website}}"/>{{website}}</a></td>
+            </tr>
+            {{/each}}
+        </table>
+
+    </div>
+
+</div>
